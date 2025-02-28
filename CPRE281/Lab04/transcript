@@ -1,0 +1,31 @@
+# Compile of Block1.v was successful.
+# Compile of multiplexer.v was successful.
+# Compile of normal.v was successful.
+# Compile of powersaving.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.Block1
+# vsim -gui work.Block1 
+# Start time: 09:37:08 on Sep 26,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.Block1(fast)
+add wave -position insertpoint  \
+sim:/Block1/P \
+sim:/Block1/T \
+sim:/Block1/H \
+sim:/Block1/M \
+sim:/Block1/AC
+do alarm.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'F' not found.
+# Error in macro ./alarm.do line 1
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'F' not found.
+# 
+#     while executing
+# "force F 0 , 1 400 -repeat 800"
+do AC.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'WP' not found.
+# Error in macro ./AC.do line 4
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'WP' not found.
+# 
+#     while executing
+# "force WP 0 0, 1 50 -repeat 100"
+do AC.do

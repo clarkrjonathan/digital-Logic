@@ -1,0 +1,133 @@
+# Compile of lab3step1.v was successful.
+# Compile of lab3step1.v was successful.
+vsim -gui work.lab3step1
+# vsim -gui work.lab3step1 
+# Start time: 09:56:52 on Sep 19,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab3step1(fast)
+add wave -position insertpoint  \
+sim:/lab3step1/C \
+sim:/lab3step1/G \
+sim:/lab3step1/W \
+sim:/lab3step1/A
+force -freeze sim:/lab3step1/A 1'hz 0
+force -freeze sim:/lab3step1/C 20'hz 0
+force -freeze sim:/lab3step1/G 40'hz 0
+force -freeze sim:/lab3step1/W 80'hz 0
+force -freeze sim:/lab3step1/A 80'hz 0
+run 160
+add wave -position insertpoint  \
+sim:/lab3step1/C \
+sim:/lab3step1/G \
+sim:/lab3step1/W \
+sim:/lab3step1/A
+vsim -gui work.lab3step1
+# End time: 10:01:19 on Sep 19,2024, Elapsed time: 0:04:27
+# Errors: 0, Warnings: 6
+# vsim -gui work.lab3step1 
+# Start time: 10:01:19 on Sep 19,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab3step1(fast)
+add wave -position insertpoint  \
+sim:/lab3step1/C \
+sim:/lab3step1/G \
+sim:/lab3step1/W \
+sim:/lab3step1/A
+do basic-alarm.do
+vsim -gui work.lab3step1
+# End time: 10:02:35 on Sep 19,2024, Elapsed time: 0:01:16
+# Errors: 0, Warnings: 1
+# vsim -gui work.lab3step1 
+# Start time: 10:02:35 on Sep 19,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab3step1(fast)
+add wave -position insertpoint  \
+sim:/lab3step1/C \
+sim:/lab3step1/G \
+sim:/lab3step1/W \
+sim:/lab3step1/A
+do basic-alarm.do
+# Compile of lab3step1.v was successful.
+vsim -gui work.lab3step1
+# End time: 10:04:44 on Sep 19,2024, Elapsed time: 0:02:09
+# Errors: 0, Warnings: 2
+# vsim -gui work.lab3step1 
+# Start time: 10:04:44 on Sep 19,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab3step1(fast)
+add wave -position insertpoint  \
+sim:/lab3step1/W \
+sim:/lab3step1/G \
+sim:/lab3step1/C \
+sim:/lab3step1/A
+do basic-alarm.do
+# Compile of lab3step1.v was successful.
+# Compile of lab3step2.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of lab3step1.v was successful.
+# Compile of lab3step2.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of lab3step1.v was successful.
+# Compile of lab3step2.v failed with 1 errors.
+# 2 compiles, 1 failed with 1 error.
+# Compile of lab3step1.v was successful.
+# Compile of lab3step2.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab3step2
+# End time: 10:18:24 on Sep 19,2024, Elapsed time: 0:13:40
+# Errors: 0, Warnings: 6
+# vsim -gui work.lab3step2 
+# Start time: 10:18:24 on Sep 19,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab3step2(fast)
+add wave -position insertpoint  \
+sim:/lab3step2/W \
+sim:/lab3step2/G \
+sim:/lab3step2/C \
+sim:/lab3step2/A
+do basic-alarm.do
+# Compile of lab3step1.v was successful.
+# Compile of lab3step2.v was successful.
+# Compile of lab3step3.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.lab3step3
+# End time: 10:24:09 on Sep 19,2024, Elapsed time: 0:05:45
+# Errors: 0, Warnings: 3
+# vsim -gui work.lab3step3 
+# Start time: 10:24:09 on Sep 19,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab3step3(fast)
+add wave -position insertpoint  \
+sim:/lab3step3/W \
+sim:/lab3step3/G \
+sim:/lab3step3/F \
+sim:/lab3step3/C \
+sim:/lab3step3/A
+do alarm.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'c' not found.
+# Error in macro ./alarm.do line 2
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'c' not found.
+# 
+#     while executing
+# "force c 0 0, 1 200 -repeat 400"
+do alarm.do
+# Compile of lab3step1.v was successful.
+# Compile of lab3step2.v was successful.
+# Compile of lab3step3.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.lab3step3
+# End time: 10:30:51 on Sep 19,2024, Elapsed time: 0:06:42
+# Errors: 0, Warnings: 2
+# vsim -gui work.lab3step3 
+# Start time: 10:30:51 on Sep 19,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.lab3step3(fast)
+add wave -position insertpoint  \
+sim:/lab3step3/W \
+sim:/lab3step3/G \
+sim:/lab3step3/F \
+sim:/lab3step3/C \
+sim:/lab3step3/A
+do alarm.do
+# End time: 10:33:10 on Sep 19,2024, Elapsed time: 0:02:19
+# Errors: 0, Warnings: 2

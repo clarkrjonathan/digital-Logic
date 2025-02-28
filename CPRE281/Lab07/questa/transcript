@@ -1,0 +1,447 @@
+# Compile of fullAdder.v failed with 2 errors.
+# Compile of fullAdder.v failed with 2 errors.
+# Compile of fullAdder.v failed with 2 errors.
+# Compile of fullAdder.v failed with 2 errors.
+# Compile of fullAdder.v failed with 1 errors.
+# Compile of fullAdder.v failed with 1 errors.
+# Compile of fullAdder.v failed with 1 errors.
+# Compile of fullAdder.v failed with 1 errors.
+# Compile of fullAdder.v was successful.
+vsim -gui work.signedAdder
+# vsim -gui work.signedAdder 
+# Start time: 08:57:47 on Oct 24,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/Lab07/questa/fullAdder.v(72): Module 'adder4bt' is not defined.
+#  For instance 'b2v_inst5' at path 'signedAdder'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 08:57:49 on Oct 24,2024, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 13
+# Compile of fullAdder.v was successful.
+# Compile of adder4bt.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.signedAdder
+# vsim -gui work.signedAdder 
+# Start time: 09:00:42 on Oct 24,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/Lab07/quartus/adder4bt.v(67): Module 'fullAdder' is not defined.
+#  For instance 'b2v_inst2' at path 'signedAdder.b2v_inst5'
+# ** Error: U:/CPRE281/Lab07/quartus/adder4bt.v(75): Module 'fullAdder' is not defined.
+#  For instance 'b2v_inst3' at path 'signedAdder.b2v_inst5'
+# ** Error: U:/CPRE281/Lab07/quartus/adder4bt.v(83): Module 'fullAdder' is not defined.
+#  For instance 'b2v_inst4' at path 'signedAdder.b2v_inst5'
+# ** Error: U:/CPRE281/Lab07/quartus/adder4bt.v(91): Module 'fullAdder' is not defined.
+#  For instance 'b2v_inst5' at path 'signedAdder.b2v_inst5'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=4, Warnings=0.
+# Error loading design
+# End time: 09:00:43 on Oct 24,2024, Elapsed time: 0:00:01
+# Errors: 4, Warnings: 3
+# Compile of fullAdder.v was successful.
+# Compile of adder4bt.v was successful.
+# Compile of oneBitAdder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.signedAdder
+# vsim -gui work.signedAdder 
+# Start time: 09:02:28 on Oct 24,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Error: U:/CPRE281/Lab07/quartus/adder4bt.v(67): Module 'oneBitAdder' is not defined.
+#  For instance 'b2v_inst2' at path 'signedAdder.b2v_inst5'
+# Optimization failed
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=1, Warnings=0.
+# Error loading design
+# End time: 09:02:30 on Oct 24,2024, Elapsed time: 0:00:02
+# Errors: 1, Warnings: 3
+# Compile of fullAdder.v was successful.
+# Compile of adder4bt.v was successful.
+# Compile of oneBitAdder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.signedAdder
+# vsim -gui work.signedAdder 
+# Start time: 09:02:58 on Oct 24,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: U:/CPRE281/Lab07/quartus/adder4bt.v(67): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 5, found 4.
+# ** Warning: U:/CPRE281/Lab07/quartus/adder4bt.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'Y'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.signedAdder(fast)
+add wave -position insertpoint  \
+sim:/signedAdder/X1 \
+sim:/signedAdder/X2 \
+sim:/signedAdder/X3 \
+sim:/signedAdder/X4 \
+sim:/signedAdder/Y1 \
+sim:/signedAdder/Y2 \
+sim:/signedAdder/Y3 \
+sim:/signedAdder/Y4 \
+sim:/signedAdder/Control \
+sim:/signedAdder/S1 \
+sim:/signedAdder/S2 \
+sim:/signedAdder/S3 \
+sim:/signedAdder/S4 \
+sim:/signedAdder/Cout \
+sim:/signedAdder/Ov
+do function.do
+do function.do
+do function.do
+quit -sim
+# End time: 09:11:00 on Oct 24,2024, Elapsed time: 0:08:02
+# Errors: 0, Warnings: 4
+vsim work.fullAdder
+# vsim work.fullAdder 
+# Start time: 09:11:26 on Oct 24,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.fullAdder(fast)
+add wave -position insertpoint  \
+sim:/fullAdder/Cin \
+sim:/fullAdder/X \
+sim:/fullAdder/Y \
+sim:/fullAdder/Cout \
+sim:/fullAdder/S
+do fullAdder.do
+do fullAdder.do
+# Compile of fullAdder.v was successful.
+# Compile of adder4bt.v was successful.
+# Compile of oneBitAdder.v was successful.
+# 3 compiles, 0 failed with no errors.
+quit -sim
+# End time: 09:13:56 on Oct 24,2024, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 2
+# Compile of fullAdder.v was successful.
+# Compile of adder4bt.v was successful.
+# Compile of oneBitAdder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.oneBitAdder
+# vsim work.oneBitAdder 
+# Start time: 09:14:15 on Oct 24,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.oneBitAdder(fast)
+add wave -position insertpoint  \
+sim:/oneBitAdder/Cin \
+sim:/oneBitAdder/X \
+sim:/oneBitAdder/Y \
+sim:/oneBitAdder/Cout \
+sim:/oneBitAdder/S
+do fullAdder.do
+do oneBitAdder.do
+do oneBitAdder.do
+quit -sim
+# End time: 09:17:01 on Oct 24,2024, Elapsed time: 0:02:46
+# Errors: 0, Warnings: 2
+vsim work.fullAdder
+# vsim work.fullAdder 
+# Start time: 09:17:10 on Oct 24,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.fullAdder(fast)
+quit -sim
+# End time: 09:17:31 on Oct 24,2024, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 1
+vsim work.signedAdder
+# vsim work.signedAdder 
+# Start time: 09:17:44 on Oct 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: U:/CPRE281/Lab07/quartus/adder4bt.v(67): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 5, found 4.
+# ** Warning: U:/CPRE281/Lab07/quartus/adder4bt.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'Y'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.signedAdder(fast)
+add wave -position insertpoint  \
+sim:/signedAdder/X1 \
+sim:/signedAdder/X2 \
+sim:/signedAdder/X3 \
+sim:/signedAdder/X4 \
+sim:/signedAdder/Y1 \
+sim:/signedAdder/Y2 \
+sim:/signedAdder/Y3 \
+sim:/signedAdder/Y4 \
+sim:/signedAdder/Control \
+sim:/signedAdder/S1 \
+sim:/signedAdder/S2 \
+sim:/signedAdder/S3 \
+sim:/signedAdder/S4 \
+sim:/signedAdder/Cout \
+sim:/signedAdder/Ov
+do signedAdder.do
+quit -sim
+quit -sim
+# End time: 09:18:33 on Oct 24,2024, Elapsed time: 0:00:49
+# Errors: 0, Warnings: 3
+vsim work.fullAdder
+# vsim work.fullAdder 
+# Start time: 09:18:40 on Oct 24,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.fullAdder(fast)
+quit -sim
+# End time: 09:18:54 on Oct 24,2024, Elapsed time: 0:00:14
+# Errors: 0, Warnings: 2
+# Compile of fullAdder.v was successful.
+# Compile of adder4bt.v was successful.
+# Compile of oneBitAdder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.fullAdder
+# vsim work.fullAdder 
+# Start time: 09:20:26 on Oct 24,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt1
+# Loading work.fullAdder(fast)
+quit -sim
+# End time: 09:20:42 on Oct 24,2024, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 2
+# Compile of fullAdder.v was successful.
+# Compile of adder4bt.v was successful.
+# Compile of oneBitAdder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.signedAdder
+# vsim work.signedAdder 
+# Start time: 09:20:50 on Oct 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# ** Warning: U:/CPRE281/Lab07/quartus/adder4bt.v(67): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 5, found 4.
+# ** Warning: U:/CPRE281/Lab07/quartus/adder4bt.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'Y'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.signedAdder(fast)
+add wave -position insertpoint  \
+sim:/signedAdder/X1 \
+sim:/signedAdder/X2 \
+sim:/signedAdder/X3 \
+sim:/signedAdder/X4 \
+sim:/signedAdder/Y1 \
+sim:/signedAdder/Y2 \
+sim:/signedAdder/Y3 \
+sim:/signedAdder/Y4 \
+sim:/signedAdder/Control \
+sim:/signedAdder/S1 \
+sim:/signedAdder/S2 \
+sim:/signedAdder/S3 \
+sim:/signedAdder/S4 \
+sim:/signedAdder/Cout \
+sim:/signedAdder/Ov
+do signedAdder.do
+quit -sim
+# End time: 09:21:41 on Oct 24,2024, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 4
+# Compile of signedAdder.v was successful.
+# Compile of signedAdder.v was successful.
+# Compile of signedAdder.v was successful.
+# Compile of adder4bt.v was successful.
+# Compile of oneBitAdder.v was successful.
+# 3 compiles, 0 failed with no errors.
+# Load canceled
+vsim work.adder4bt
+# vsim work.adder4bt 
+# Start time: 09:28:26 on Oct 24,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: U:/CPRE281/Lab07/questa/adder4bt.v(67): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst2'.  Expected 5, found 4.
+# ** Warning: U:/CPRE281/Lab07/questa/adder4bt.v(67): (vopt-2718) [TFMPC] - Missing connection for port 'Y'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.adder4bt(fast)
+do signedAdder.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'Control' not found.
+# Error in macro ./signedAdder.do line 9
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'Control' not found.
+# 
+#     while executing
+# "force Control 1"
+add wave -position insertpoint  \
+sim:/adder4bt/X1 \
+sim:/adder4bt/Y2 \
+sim:/adder4bt/X2 \
+sim:/adder4bt/Cin \
+sim:/adder4bt/Y1 \
+sim:/adder4bt/X3 \
+sim:/adder4bt/Y3 \
+sim:/adder4bt/X4 \
+sim:/adder4bt/Y4 \
+sim:/adder4bt/S1 \
+sim:/adder4bt/S2 \
+sim:/adder4bt/S3 \
+sim:/adder4bt/S4 \
+sim:/adder4bt/Cout \
+sim:/adder4bt/Ov
+do signedAdder.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'Control' not found.
+# Error in macro ./signedAdder.do line 9
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'Control' not found.
+# 
+#     while executing
+# "force Control 1"
+do signedAdder.do
+do signedAdder.do
+quit -sim
+# End time: 09:32:21 on Oct 24,2024, Elapsed time: 0:03:55
+# Errors: 0, Warnings: 14
+# Compile of signedAdder.v was successful.
+# Compile of adder4bt.v was successful.
+# Compile of oneBitAdder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.adder4bt
+# vsim work.adder4bt 
+# Start time: 09:32:37 on Oct 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.adder4bt(fast)
+add wave -position insertpoint  \
+sim:/adder4bt/Y4 \
+sim:/adder4bt/Y3 \
+sim:/adder4bt/Y2 \
+sim:/adder4bt/Y1 \
+sim:/adder4bt/X4 \
+sim:/adder4bt/X3 \
+sim:/adder4bt/X2 \
+sim:/adder4bt/X1 \
+sim:/adder4bt/S4 \
+sim:/adder4bt/S3 \
+sim:/adder4bt/S2 \
+sim:/adder4bt/S1 \
+sim:/adder4bt/Ov \
+sim:/adder4bt/Cout \
+sim:/adder4bt/Cin
+do signedAdder.do
+do signedAdder.do
+# ** Error: invalid command name "Cin"
+# Error in macro ./signedAdder.do line 9
+# invalid command name "Cin"
+#     while executing
+# "Cin 0"
+do signedAdder.do
+do signedAdder.do
+quit -sim
+# End time: 09:39:06 on Oct 24,2024, Elapsed time: 0:06:29
+# Errors: 1, Warnings: 2
+vsim work.signedAdder
+# vsim work.signedAdder 
+# Start time: 09:39:11 on Oct 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.signedAdder(fast)
+add wave -position insertpoint  \
+sim:/signedAdder/Y4 \
+sim:/signedAdder/Y3 \
+sim:/signedAdder/Y2 \
+sim:/signedAdder/Y1 \
+sim:/signedAdder/X4 \
+sim:/signedAdder/X3 \
+sim:/signedAdder/X2 \
+sim:/signedAdder/X1 \
+sim:/signedAdder/S4 \
+sim:/signedAdder/S3 \
+sim:/signedAdder/S2 \
+sim:/signedAdder/S1 \
+sim:/signedAdder/Ov \
+sim:/signedAdder/Cout \
+sim:/signedAdder/Control
+do signedAdder.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'Cin' not found.
+# Error in macro ./signedAdder.do line 9
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'Cin' not found.
+# 
+#     while executing
+# "force Cin 0"
+do signedAdder.do
+quit -sim
+# End time: 09:43:38 on Oct 24,2024, Elapsed time: 0:04:27
+# Errors: 0, Warnings: 1
+# Compile of signedAdder.v was successful.
+# Compile of adder4bt.v was successful.
+# Compile of oneBitAdder.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.adder4bt
+# vsim work.adder4bt 
+# Start time: 09:43:58 on Oct 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.adder4bt(fast)
+add wave -position insertpoint  \
+sim:/adder4bt/Y4 \
+sim:/adder4bt/Y3 \
+sim:/adder4bt/Y2 \
+sim:/adder4bt/Y1 \
+sim:/adder4bt/X4 \
+sim:/adder4bt/X3 \
+sim:/adder4bt/X2 \
+sim:/adder4bt/X1 \
+sim:/adder4bt/S4 \
+sim:/adder4bt/S3 \
+sim:/adder4bt/S2 \
+sim:/adder4bt/S1 \
+sim:/adder4bt/Ov \
+sim:/adder4bt/Cout \
+sim:/adder4bt/Cin
+do adder4bt.do
+quit -sim
+# End time: 09:46:29 on Oct 24,2024, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 2
+vsim work.signedAdder
+# vsim work.signedAdder 
+# Start time: 09:47:13 on Oct 24,2024
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Loading work.signedAdder(fast)
+add wave -position insertpoint  \
+sim:/signedAdder/Y4 \
+sim:/signedAdder/Y3 \
+sim:/signedAdder/Y2 \
+sim:/signedAdder/Y1 \
+sim:/signedAdder/X4 \
+sim:/signedAdder/X3 \
+sim:/signedAdder/X2 \
+sim:/signedAdder/X1 \
+sim:/signedAdder/S4 \
+sim:/signedAdder/S3 \
+sim:/signedAdder/S2 \
+sim:/signedAdder/S1 \
+sim:/signedAdder/Ov \
+sim:/signedAdder/Cout \
+sim:/signedAdder/Control
+do signedAdder.do
+# Causality operation skipped due to absence of debug database file
+do signedAdder.do
+quit -sim
+# End time: 09:52:19 on Oct 24,2024, Elapsed time: 0:05:06
+# Errors: 0, Warnings: 1
+vsim work.signedAdder
+# vsim work.signedAdder 
+# Start time: 09:52:30 on Oct 24,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.signedAdder(fast)
+add wave -position insertpoint  \
+sim:/signedAdder/Y4 \
+sim:/signedAdder/Y3 \
+sim:/signedAdder/Y2 \
+sim:/signedAdder/Y1 \
+sim:/signedAdder/X4 \
+sim:/signedAdder/X3 \
+sim:/signedAdder/X2 \
+sim:/signedAdder/X1 \
+sim:/signedAdder/S4 \
+sim:/signedAdder/S3 \
+sim:/signedAdder/S2 \
+sim:/signedAdder/S1 \
+sim:/signedAdder/Ov \
+sim:/signedAdder/Cout \
+sim:/signedAdder/Control
+do signedAdder.do
+do signedAdder.do
+do signedAdder.do
+do signedAdder.do
+do signedAdder.do
+quit -sim
+# End time: 09:59:39 on Oct 24,2024, Elapsed time: 0:07:09
+# Errors: 0, Warnings: 1
+vsim work.signedAdder
+# vsim work.signedAdder 
+# Start time: 09:59:47 on Oct 24,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.signedAdder(fast)
+add wave -position insertpoint  \
+sim:/signedAdder/Y4 \
+sim:/signedAdder/Y3 \
+sim:/signedAdder/Y2 \
+sim:/signedAdder/Y1 \
+sim:/signedAdder/X4 \
+sim:/signedAdder/X3 \
+sim:/signedAdder/X2 \
+sim:/signedAdder/X1 \
+sim:/signedAdder/S4 \
+sim:/signedAdder/S3 \
+sim:/signedAdder/S2 \
+sim:/signedAdder/S1 \
+sim:/signedAdder/Ov \
+sim:/signedAdder/Cout \
+sim:/signedAdder/Control
+do signedAdder.do
+# End time: 10:03:36 on Oct 24,2024, Elapsed time: 0:03:49
+# Errors: 0, Warnings: 1

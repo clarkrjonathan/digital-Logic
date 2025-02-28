@@ -1,0 +1,124 @@
+|signedAdder
+S1 <= adder4bt:inst5.S1
+Control => adder4bt:inst5.Cin
+Control => inst.IN1
+Control => inst2.IN1
+Control => inst3.IN1
+Control => inst4.IN1
+X1 => adder4bt:inst5.X1
+Y1 => inst.IN0
+X2 => adder4bt:inst5.X2
+Y2 => inst2.IN0
+X3 => adder4bt:inst5.X3
+Y3 => inst3.IN0
+X4 => adder4bt:inst5.X4
+Y4 => inst4.IN0
+S2 <= adder4bt:inst5.S2
+S3 <= adder4bt:inst5.S3
+S4 <= adder4bt:inst5.S4
+Cout <= adder4bt:inst5.Cout
+Ov <= adder4bt:inst5.Ov
+
+
+|signedAdder|adder4bt:inst5
+S1 <= fullAdder:inst2.S
+Cin => fullAdder:inst2.Cin
+X1 => fullAdder:inst2.X
+Y1 => fullAdder:inst2.Y
+S2 <= fullAdder:inst3.S
+X2 => fullAdder:inst3.X
+Y2 => fullAdder:inst3.Y
+S3 <= fullAdder:inst4.S
+X3 => fullAdder:inst4.X
+Y3 => fullAdder:inst4.Y
+S4 <= fullAdder:inst5.S
+X4 => fullAdder:inst5.X
+Y4 => fullAdder:inst5.Y
+Cout <= fullAdder:inst5.Cout
+Ov <= inst.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|signedAdder|adder4bt:inst5|fullAdder:inst2
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|signedAdder|adder4bt:inst5|fullAdder:inst3
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|signedAdder|adder4bt:inst5|fullAdder:inst4
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|signedAdder|adder4bt:inst5|fullAdder:inst5
+Cin => S.IN1
+Cin => Cout.IN0
+Cin => Cout.IN0
+Cin => S.IN1
+Cin => S.IN1
+Cin => S.IN1
+X => S.IN0
+X => S.IN0
+X => Cout.IN1
+X => S.IN0
+X => S.IN0
+Y => S.IN1
+Y => S.IN1
+Y => Cout.IN1
+Y => S.IN1
+Y => S.IN1
+S <= S.DB_MAX_OUTPUT_PORT_TYPE
+Cout <= Cout.DB_MAX_OUTPUT_PORT_TYPE
+
+

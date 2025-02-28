@@ -1,0 +1,5 @@
+module primeNumbers(W,X,Y,Z,B);
+	input W,X,Y,Z;
+	output B;
+	assign B = (X & ~Y & Z)|(~X&Y&Z)|(~W&~X&Y)|(~W&X&Z);
+endmodule

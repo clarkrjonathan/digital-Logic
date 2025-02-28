@@ -1,0 +1,51 @@
+|primeNumbers
+B <= BUSMUX:inst4.result[0]
+Y => inst3.IN0
+Y => bobsCircuit:inst.Y
+Z => inst3.IN1
+Z => bobsCircuit:inst.Z
+W => bobsCircuit:inst.W
+W => inst2.IN1
+X => bobsCircuit:inst.X
+X => inst2.IN0
+
+
+|primeNumbers|BUSMUX:inst4
+dataa[0] => lpm_mux:$00000.data[0][0]
+datab[0] => lpm_mux:$00000.data[1][0]
+sel => lpm_mux:$00000.sel[0]
+result[0] <= lpm_mux:$00000.result[0]
+
+
+|primeNumbers|BUSMUX:inst4|lpm_mux:$00000
+data[0][0] => mux_7rc:auto_generated.data[0]
+data[1][0] => mux_7rc:auto_generated.data[1]
+sel[0] => mux_7rc:auto_generated.sel[0]
+clock => ~NO_FANOUT~
+aclr => ~NO_FANOUT~
+clken => ~NO_FANOUT~
+result[0] <= mux_7rc:auto_generated.result[0]
+
+
+|primeNumbers|BUSMUX:inst4|lpm_mux:$00000|mux_7rc:auto_generated
+data[0] => result_node[0].IN1
+data[1] => result_node[0].IN1
+result[0] <= result_node[0].DB_MAX_OUTPUT_PORT_TYPE
+sel[0] => result_node[0].IN0
+sel[0] => _.IN0
+
+
+|primeNumbers|bobsCircuit:inst
+W => B.IN0
+W => B.IN0
+X => B.IN0
+X => B.IN1
+Y => B.IN1
+Y => B.IN1
+Y => B.IN1
+Z => B.IN1
+Z => B.IN1
+Z => B.IN1
+B <= B.DB_MAX_OUTPUT_PORT_TYPE
+
+

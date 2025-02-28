@@ -1,0 +1,22 @@
+U:/CPRE281/Lab07/questa/oneBitAdder.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab07/questa/oneBitAdder.v
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module oneBitAdder
+
+Top level modules:
+	oneBitAdder
+
+} {} {}} U:/CPRE281/Lab07/questa/adder4bt.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/Lab07/questa/adder4bt.v
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module adder4bt
+
+Top level modules:
+	adder4bt
+
+} {} {}} U:/CPRE281/Lab07/questa/signedAdder.v {1 {vlog -work work -vopt -stats=none {U:\CPRE281\Lab07\questa\signedAdder.v}
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module signedAdder
+
+Top level modules:
+	signedAdder
+
+} {} {}}

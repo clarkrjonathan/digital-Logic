@@ -1,0 +1,162 @@
+m255
+K4
+z2
+!s12c _opt1
+Z0 !s99 nomlopt
+Z1 !s12c _opt
+R0
+R1
+R0
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z2 dC:/questasim64_2024.2/examples
+T_opt
+!s110 1727359246
+VLTliL6C^TFklaoa`9R0I52
+04 15 4 work farmers_problem fast 0
+=1-4cd717937ac5-66f5690d-d4-20b4
+R0
+Z3 !s12f OEM100
+Z4 !s12b OEM100
+Z5 !s124 OEM100
+Z6 !s135 nogc
+Z7 o-quiet -auto_acc_if_foreign -work work
+Z8 tCvgOpt 0
+n@_opt
+Z9 OL;O;2024.2;79
+R2
+T_opt1
+!s110 1727361431
+VSeb8KJAg@WSb6mmRU173C3
+04 6 4 work Block1 fast 0
+=1-4cd717937ac5-66f57196-3b8-1e90
+R0
+R3
+R4
+R5
+R6
+R7
+R8
+n@_opt1
+R9
+vBlock1
+2U:/CPRE281/Lab04/lab4step2/Block1.v
+Z10 !s110 1727361398
+!i10b 1
+!s100 90c^]<cM`IzO=Q]SB]NkM2
+ITY[BOA<>J:;aa5>46]^JG1
+Z11 dU:/CPRE281/Lab04
+w1727361313
+8U:/CPRE281/Lab04/lab4step2/Block1.v
+FU:/CPRE281/Lab04/lab4step2/Block1.v
+!i122 4
+L0 20 44
+Z12 VDg1SIo80bB@j0V0VzS_@n1
+Z13 OL;L;2024.2;79
+r1
+!s85 0
+31
+!s108 1727361397.000000
+!s107 U:/CPRE281/Lab04/lab4step2/Block1.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab04/lab4step2/Block1.v|
+!i113 0
+Z14 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R8
+n@block1
+vfarmers_problem
+2U:/CPRE281/Lab04/farmersProblem.v
+!s110 1727359233
+!i10b 1
+!s100 i^C8i=z>CDTWK^NYnS]5A3
+Izna_b[Qb?g2E01lZgY9:P1
+R11
+w1727359227
+8U:/CPRE281/Lab04/farmersProblem.v
+FU:/CPRE281/Lab04/farmersProblem.v
+!i122 3
+L0 1 28
+R12
+R13
+r1
+!s85 0
+31
+!s108 1727359231.000000
+!s107 U:/CPRE281/Lab04/farmersProblem.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab04/farmersProblem.v|
+!i113 0
+R14
+R8
+vmultiplexer
+2U:/CPRE281/Lab04/lab4step2/multiplexer.v
+R10
+!i10b 1
+!s100 JAWGHj^X_ng]Va0]P;enP2
+Ii;8P:LC2<C`alQoGaHG]M3
+R11
+w1727360676
+8U:/CPRE281/Lab04/lab4step2/multiplexer.v
+FU:/CPRE281/Lab04/lab4step2/multiplexer.v
+!i122 5
+Z15 L0 25 18
+R12
+R13
+r1
+!s85 0
+31
+Z16 !s108 1727361398.000000
+!s107 U:/CPRE281/Lab04/lab4step2/multiplexer.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab04/lab4step2/multiplexer.v|
+!i113 0
+R14
+R8
+vnormal
+2U:/CPRE281/Lab04/lab4step2/normal.v
+R10
+!i10b 1
+!s100 [m]VP[8nXlRIHX:4S09XJ1
+I<OeFLlKHz;Hc3J_Z0CgIH0
+R11
+w1727360537
+8U:/CPRE281/Lab04/lab4step2/normal.v
+FU:/CPRE281/Lab04/lab4step2/normal.v
+!i122 6
+L0 25 19
+R12
+R13
+r1
+!s85 0
+31
+R16
+!s107 U:/CPRE281/Lab04/lab4step2/normal.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab04/lab4step2/normal.v|
+!i113 0
+R14
+R8
+vpowersaving
+2U:/CPRE281/Lab04/lab4step2/powersaving.v
+R10
+!i10b 1
+!s100 RjhfH2`^E`aPjiS9z2;NO1
+I9=6iNzDKUeGU:b2UW]@HY3
+R11
+w1727360740
+8U:/CPRE281/Lab04/lab4step2/powersaving.v
+FU:/CPRE281/Lab04/lab4step2/powersaving.v
+!i122 7
+R15
+R12
+R13
+r1
+!s85 0
+31
+R16
+!s107 U:/CPRE281/Lab04/lab4step2/powersaving.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab04/lab4step2/powersaving.v|
+!i113 0
+R14
+R8

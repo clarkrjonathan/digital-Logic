@@ -1,0 +1,1 @@
+C:/questasim64_2024.2/win64/VisualizerRls/bin/viscom.exe -nolock -quiet -jmem_size 32768 work.adder4bt -quiet -auto_acc_if_foreign -work work -allow_unnamed -o _opt1 -id 1-4cd717937a5e-671a5d2e-25a-3790 +__design_bin_path+U:/CPRE281/Lab07/questa

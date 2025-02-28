@@ -1,0 +1,36 @@
+U:/CPRE281/lab09/lab9step1b.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab09/lab9step1b.v
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module lab9step1b
+
+Top level modules:
+	lab9step1b
+
+} {} {}} U:/CPRE281/lab09/lab9step2/NEDflipFlop.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab09/lab9step2/NEDflipFlop.v
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module NEDflipFlop
+
+Top level modules:
+	NEDflipFlop
+
+} {} {}} U:/CPRE281/lab09/Quartus/SRLatchNor.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab09/Quartus/SRLatchNor.v
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module SRLatchNor
+
+Top level modules:
+	SRLatchNor
+
+} {} {}} U:/CPRE281/lab09/lab9step2/PEDflipFlop.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab09/lab9step2/PEDflipFlop.v
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module PEDflipFlop
+
+Top level modules:
+	PEDflipFlop
+
+} {} {}} U:/CPRE281/lab09/lab9step2/GatedDLatch.v {1 {vlog -work work -vopt -stats=none U:/CPRE281/lab09/lab9step2/GatedDLatch.v
+QuestaSim-64 vlog 2024.2 Compiler 2024.05 May 20 2024
+-- Compiling module GatedDLatch
+
+Top level modules:
+	GatedDLatch
+
+} {} {}}

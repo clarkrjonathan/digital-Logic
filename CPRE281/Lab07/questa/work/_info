@@ -1,0 +1,170 @@
+m255
+K4
+z2
+Z0 !s12c _opt
+Z1 !s99 nomlopt
+Z2 !s12c _opt1
+R1
+R0
+R1
+R2
+R1
+R2
+R1
+R0
+R1
+R0
+R1
+!s12c _opt2
+R1
+R2
+R1
+R0
+R1
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z3 dC:/questasim64_2024.2/examples
+T_opt
+!s110 1729781234
+VlMID8nXlDT]M??m]F[DT20
+04 11 4 work signedAdder fast 0
+=1-4cd717937a5e-671a5df1-371-2e54
+R1
+Z4 !s12f OEM100
+Z5 !s12b OEM100
+Z6 !s124 OEM100
+Z7 !s135 nogc
+Z8 o-quiet -auto_acc_if_foreign -work work
+Z9 tCvgOpt 0
+n@_opt
+Z10 OL;O;2024.2;79
+T_opt1
+!s110 1729781039
+VN8Wn>X>DKjMQj7dF>P1O_0
+04 8 4 work adder4bt fast 0
+=1-4cd717937a5e-671a5d2e-25a-3790
+R1
+R4
+R5
+R6
+R7
+R8
+R9
+n@_opt1
+R10
+R3
+T_opt2
+!s110 1729779258
+Vf6K9^kJCJJh^[RQE[Bf`:1
+04 11 4 work oneBitAdder fast 0
+=1-4cd717937a5e-671a5639-2cd-8
+R1
+R4
+R5
+R6
+R7
+R8
+R9
+n@_opt2
+R10
+R3
+vadder4bt
+2U:/CPRE281/Lab07/questa/adder4bt.v
+Z11 !s110 1729781021
+!i10b 1
+!s100 JhHP@eg<_Rok?leCBgi1n0
+I4kS]U=ShHjVSc5RAJjLUz3
+Z12 dU:/CPRE281/Lab07/questa
+w1729780990
+8U:/CPRE281/Lab07/questa/adder4bt.v
+FU:/CPRE281/Lab07/questa/adder4bt.v
+!i122 30
+L0 20 80
+Z13 VDg1SIo80bB@j0V0VzS_@n1
+Z14 OL;L;2024.2;79
+r1
+!s85 0
+31
+Z15 !s108 1729781021.000000
+!s107 U:/CPRE281/Lab07/questa/adder4bt.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab07/questa/adder4bt.v|
+!i113 0
+Z16 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R9
+vfullAdder
+2U:/CPRE281/Lab07/oneBitAdder.v
+!s110 1729778540
+!i10b 1
+!s100 RRo`4l;_=YkJ9ez^Yg>FZ2
+I2>_TBU6Cz0`[a2NO>SUB:3
+R12
+w1729776145
+8U:/CPRE281/Lab07/oneBitAdder.v
+FU:/CPRE281/Lab07/oneBitAdder.v
+!i122 5
+Z17 L0 1 7
+R13
+R14
+r1
+!s85 0
+31
+!s108 1729778540.000000
+!s107 U:/CPRE281/Lab07/oneBitAdder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab07/oneBitAdder.v|
+!i113 0
+R16
+R9
+nfull@adder
+voneBitAdder
+2U:/CPRE281/Lab07/questa/oneBitAdder.v
+R11
+!i10b 1
+!s100 SKNcM6m1T[9m596`<W_EH3
+IkSz<C3Kb5b:e1:3:W3^=@2
+R12
+w1729779225
+8U:/CPRE281/Lab07/questa/oneBitAdder.v
+FU:/CPRE281/Lab07/questa/oneBitAdder.v
+!i122 31
+R17
+R13
+R14
+r1
+!s85 0
+31
+R15
+!s107 U:/CPRE281/Lab07/questa/oneBitAdder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:/CPRE281/Lab07/questa/oneBitAdder.v|
+!i113 0
+R16
+R9
+none@bit@adder
+vsignedAdder
+2U:\CPRE281\Lab07\questa\signedAdder.v
+!s110 1729781020
+!i10b 1
+!s100 [TKQ5ADzjSiz4QO;:;`Qm1
+IA=8m]KoC<FgXEK`DRM51I0
+R12
+w1729778251
+8U:\CPRE281\Lab07\questa\signedAdder.v
+FU:\CPRE281\Lab07\questa\signedAdder.v
+!i122 29
+L0 20 71
+R13
+R14
+r1
+!s85 0
+31
+!s108 1729781020.000000
+!s107 U:\\CPRE281\\Lab07\\questa\\signedAdder.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|U:\CPRE281\Lab07\questa\signedAdder.v|
+!i113 0
+R16
+R9
+nsigned@adder

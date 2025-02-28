@@ -1,0 +1,111 @@
+# Compile of SRLatchNor.v was successful.
+# Compile of SRLatchNor.v was successful.
+# Compile of SRLatchNor.v was successful.
+# Compile of lab9step1b.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim -gui work.lab9step1b
+# vsim -gui work.lab9step1b 
+# Start time: 08:51:39 on Nov 07,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.lab9step1b(fast)
+add wave -position insertpoint  \
+sim:/lab9step1b/S \
+sim:/lab9step1b/R \
+sim:/lab9step1b/Q \
+sim:/lab9step1b/QN
+do lab9step1.do
+quit -sim
+# End time: 08:53:50 on Nov 07,2024, Elapsed time: 0:02:11
+# Errors: 0, Warnings: 8
+vsim -gui work.SRLatchNor
+# vsim -gui work.SRLatchNor 
+# Start time: 08:54:00 on Nov 07,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.SRLatchNor(fast)
+add wave -position insertpoint  \
+sim:/SRLatchNor/R \
+sim:/SRLatchNor/S \
+sim:/SRLatchNor/Q \
+sim:/SRLatchNor/QN
+do lab9step1.do
+quit -sim
+# End time: 08:55:34 on Nov 07,2024, Elapsed time: 0:01:34
+# Errors: 0, Warnings: 1
+vsim -gui work.lab9step1b
+# vsim -gui work.lab9step1b 
+# Start time: 08:55:46 on Nov 07,2024
+# ** Note: (vsim-8009) Loading existing optimized design _opt
+# Loading work.lab9step1b(fast)
+add wave -position insertpoint  \
+sim:/lab9step1b/S \
+sim:/lab9step1b/R \
+sim:/lab9step1b/Q \
+sim:/lab9step1b/QN
+do lab9step1.do
+quit -sim
+quit -sim
+# End time: 09:01:17 on Nov 07,2024, Elapsed time: 0:05:31
+# Errors: 0, Warnings: 1
+# Compile of SRLatchNor.v was successful.
+# Compile of lab9step1b.v was successful.
+# Compile of GatedDLatch.v was successful.
+# 3 compiles, 0 failed with no errors.
+vsim -gui work.GatedDLatch
+# vsim -gui work.GatedDLatch 
+# Start time: 09:01:56 on Nov 07,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.GatedDLatch(fast)
+add wave -position insertpoint  \
+sim:/GatedDLatch/D \
+sim:/GatedDLatch/Clk \
+sim:/GatedDLatch/Q \
+sim:/GatedDLatch/QN
+do lab9step2and3.do
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'CLK' not found.
+# Error in macro ./lab9step2and3.do line 1
+# ** UI-Msg (Error) (suppressible): (vsim-4008) Object 'CLK' not found.
+# 
+#     while executing
+# "force -freeze CLK 0 0"
+
+do lab9step2and3.do
+quit -sim
+# End time: 09:11:36 on Nov 07,2024, Elapsed time: 0:09:40
+# Errors: 0, Warnings: 4
+# Load canceled
+# Compile of SRLatchNor.v was successful.
+# Compile of lab9step1b.v was successful.
+# Compile of GatedDLatch.v was successful.
+# Compile of NEDflipFlop.v was successful.
+# 4 compiles, 0 failed with no errors.
+vsim -gui work.NEDflipFlop
+# vsim -gui work.NEDflipFlop 
+# Start time: 09:14:53 on Nov 07,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: U:/CPRE281/lab09/lab9step2/NEDflipFlop.v(40): (vopt-2685) [TFMPC] - Too few port connections for 'b2v_inst'.  Expected 4, found 3.
+# ** Warning: U:/CPRE281/lab09/lab9step2/NEDflipFlop.v(40): (vopt-2718) [TFMPC] - Missing connection for port 'QN'.
+# ** Note: (vsim-12126) Error and warning message counts have been restored: Errors=0, Warnings=2.
+# Loading work.NEDflipFlop(fast)
+add wave -position insertpoint  \
+sim:/NEDflipFlop/D \
+sim:/NEDflipFlop/Clk \
+sim:/NEDflipFlop/Q \
+sim:/NEDflipFlop/QN
+do lab9step2and3.do
+quit -sim
+# End time: 09:28:46 on Nov 07,2024, Elapsed time: 0:13:53
+# Errors: 0, Warnings: 5
+# Compile of PEDflipFlop.v was successful.
+vsim -gui work.PEDflipFlop
+# vsim -gui work.PEDflipFlop 
+# Start time: 09:29:16 on Nov 07,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.PEDflipFlop(fast)
+add wave -position insertpoint  \
+sim:/PEDflipFlop/Clk \
+sim:/PEDflipFlop/D \
+sim:/PEDflipFlop/Q \
+sim:/PEDflipFlop/QN
+do lab9step2and3.do
+# End time: 09:32:44 on Nov 07,2024, Elapsed time: 0:03:28
+# Errors: 0, Warnings: 3

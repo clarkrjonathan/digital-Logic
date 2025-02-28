@@ -1,0 +1,122 @@
+m255
+K4
+z2
+!s12c _opt
+Z0 !s99 nomlopt
+!s11f vlog 2024.2 2024.05, May 20 2024
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z1 dU:/CPRE281/mProj/Bobs Circuit 2
+T_opt
+!s110 1728570055
+VMhnRYVQOiQJB<_=ZQJQ<80
+04 12 4 work bobsCircuit2 fast 0
+=1-4cd717937a5e-6707e2c6-3c8-2c3c
+R0
+!s12f OEM100
+!s12b OEM100
+!s124 OEM100
+!s135 nogc
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+OL;O;2024.2;79
+vbobsCircuit
+2U:/CPRE281/mProj/Bobs Circuit 2/bobsCircuit.v
+!s110 1728570039
+!i10b 1
+!s100 emgM@EGZ?gSaCU[V:5EKe1
+IQ8@m4E_jMn8`a@jZj;_L]0
+R1
+w1728567327
+8U:/CPRE281/mProj/Bobs Circuit 2/bobsCircuit.v
+FU:/CPRE281/mProj/Bobs Circuit 2/bobsCircuit.v
+!i122 3
+L0 1 5
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+Z4 OL;L;2024.2;79
+r1
+!s85 0
+31
+!s108 1728570037.000000
+!s107 U:/CPRE281/mProj/Bobs Circuit 2/bobsCircuit.v|
+!s90 -reportprogress|300|-work|work|U:/CPRE281/mProj/Bobs Circuit 2/bobsCircuit.v|
+!i113 0
+Z5 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+nbobs@circuit
+vbobsCircuit2
+Z6 2U:/CPRE281/mProj/Bobs Circuit 2/bobsCircuit2.v
+Z7 !s110 1728569982
+!i10b 1
+!s100 2NoTYgkf0WBKih[cRnXk13
+IL0=@cBTPKR4TVj;P?a50G1
+R1
+Z8 w1728569879
+Z9 8U:/CPRE281/mProj/Bobs Circuit 2/bobsCircuit2.v
+Z10 FU:/CPRE281/mProj/Bobs Circuit 2/bobsCircuit2.v
+!i122 2
+Z11 L0 20 43
+R3
+R4
+r1
+!s85 0
+31
+Z12 !s108 1728569981.000000
+Z13 !s107 U:/CPRE281/mProj/Bobs Circuit 2/bobsCircuit2.v|
+Z14 !s90 -reportprogress|300|-work|work|U:/CPRE281/mProj/Bobs Circuit 2/bobsCircuit2.v|
+!i113 0
+R5
+R2
+nbobs@circuit2
+vbusmux_0
+R6
+R7
+!i10b 1
+!s100 ^QX_eR1Qk2m:o?<[h=Pe:0
+I?PYg6mTjd>7D5@LVRfFPP3
+R1
+R8
+R9
+R10
+!i122 2
+L0 64 9
+R3
+R4
+r1
+!s85 0
+31
+R12
+R13
+R14
+!i113 0
+R5
+R2
+vprimeNumbers
+R6
+!s110 1728569848
+!i10b 1
+!s100 H_5_=T5g_k4oHDEakijHE2
+ID1@find6zVn_6X27zlM5Q2
+R1
+w1728569465
+R9
+R10
+!i122 0
+R11
+R3
+R4
+r1
+!s85 0
+31
+!s108 1728569848.000000
+R13
+R14
+!i113 0
+R5
+R2
+nprime@numbers
